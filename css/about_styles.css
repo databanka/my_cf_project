@@ -1,0 +1,93 @@
+* { box-sizing: border-box; }
+
+body {
+    background-color: #fffeea;
+    color: #34495e;
+}
+
+.skills {
+    background-color: #5ad4c2;
+    color: #fff;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container_contacts {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	background-image: url(../img/landscape.jpg);
+	background-size: cover;
+}
+
+
+.header h1 {
+    text-align: center;   
+}
+
+.image {
+    display: inline-block;
+    float: left;
+}
+
+.column {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    padding: 0 20px;
+}
+
+.main_text {
+    clear: both;
+    padding-top: 60px;
+}
+ 
+#skill-list {
+    margin-left: 50px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p,
+li {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.intro p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    -webkit-margin-before: 0;
+}
+
+.intro h2 {
+    -webkit-margin-before: 0;
+}
+
+.skills h3 {
+    -webkit-margin-before: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main_text h3 {
+    -webkit-margin-before: 0;
+}
+
+.contacts h3, p {
+    font-family: 'Roboto', sans-serif;
+    }
+
+.contacts a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
